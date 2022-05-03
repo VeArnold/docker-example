@@ -1,5 +1,6 @@
 workflows:
   hello-world:
+    instance_type: mac_pro
     name: Hello world workflow
     scripts:
       - until docker system info > /dev/null 2>&1; do sleep 1; done
